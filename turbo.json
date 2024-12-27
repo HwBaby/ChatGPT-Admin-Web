@@ -4,7 +4,7 @@
     "DATABASE_URL",
     "REDIS_URL"
   ],
-  "pipeline": {
+  "tasks": {
     "db:generate": {
       "dependsOn": [
         "^db:generate"
