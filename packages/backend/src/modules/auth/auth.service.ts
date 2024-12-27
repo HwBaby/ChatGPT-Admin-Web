@@ -1,4 +1,4 @@
-import { compare, hashSync } from 'bcrypt';
+import { compare, hashSync } from 'bcryptjs';
 import { Redis } from 'ioredis';
 import * as Joi from 'joi';
 import { CustomPrismaService } from 'nestjs-prisma';
